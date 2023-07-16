@@ -1,0 +1,60 @@
+
+-- libs
+-- local required = {
+--     {name = 'Timer', path = 'hump.timer'},
+--     {name = 'V2', path = 'hump.vector'},
+--     {name = 'Signal', path = 'hump.signal'},
+--     {name = 'Tiny', path = 'tiny'},
+   
+--     {name = 'Xtype', path = 'xtype'},
+--     {name = 'lovepad', path = 'lovepad'},
+--     {name = 'Bit', path = 'bit'},
+--     {name = 'Parallax', path = 'parallax'},
+--     {name = 'Bresenham', path = 'bresenham'},
+--     {name = 'Easing', path = 'easing'},
+--     {name = 'Gamera', path = 'gamera'},
+--     {name = 'Bump', path = 'bump'},
+--     {name = 'moonshine', path = 'moonshine.init'},
+--     {name = 'GameSignal', path = 'gamesignal'},
+--     {name = 'utils', path = 'utils'},
+--     {name = 'constants', path = 'constants'},
+--     {name = 'ui_button', path = 'ui_button'},
+--     {name = 'ui_scoreboard', path = 'ui_scoreboard'},
+--     {name = 'game_state_machine', path = 'game_state_machine'},
+--     {name = 'game_state_interface', path = 'game_state_interface'},
+--     {name = 'gs_menu', path = 'gs_menu'},
+--     {name = 'gs_training', path = 'gs_training'},
+--     {name = 'gs_scoreboard', path = 'gs_scoreboard'},
+--     {name = 'gs_game', path = 'gs_game'},
+--     {name = 'gs_pause', path = 'gs_pause'},
+--     {name = 'gs_gameover', path = 'gs_gameover'},
+--     {name = 'gs_debug', path = 'gs_debug'},
+--     {name = 'gs_splash_screen', path = 'gs_splash_screen'},
+--     {name = 'anim_atlas', path = 'anim_atlas'},
+--     {name = 'component', path = 'component'},
+--     {name = 'component_body', path = 'component_body'},
+--     {name = 'st_hero', path = 'st_hero'},
+--     {name = 'st_enemy', path = 'st_enemy'},
+--     {name = 'st_monkey', path = 'st_monkey'},
+--     {name = 'entity', path = 'entity'},
+--     {name = 'system', path = 'system'},
+--     {name = 'system_collision', path = 'system_collision'},
+--     {name = 'system_physic', path = 'system_physic'},
+--     {name = 'map', path = 'map'},
+--     {name = 'navmap', path = 'navmap'},
+--     {name = 'game', path = 'game'},
+--     {name = 'system_animate', path = 'system_animate'},
+--     {name = 'game_config', path = 'game_config'},
+--     {name = 'system_ai', path = 'system_ai'},
+--     {name = 'scoreboard', path = 'scoreboard'},
+--     {name = 'sound_manager', path = 'sound_manager'},
+--     {name = 'KinematicJump', path = 'kinematic_jump'},
+--     {name = 'JewelUi', path = 'jewel_ui'},
+--     {name = 'GameUi', path = 'game_ui'},
+-- }
+
+-- for i, v in ipairs(required) do
+--     v.T = os.clock()
+--     _G[v.name] = require(v.path)
+--     v.T = os.clock() - v.T
+-- end
