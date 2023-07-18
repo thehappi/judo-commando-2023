@@ -1,4 +1,4 @@
-PROJET PERSO LUA - Framework Löve2d - Android
+**PROJET PERSO LUA - Framework Löve2d - Android**
 
 Beat-em-all 2D tiré de la plateforme de jeu flash kadokado.
 
