@@ -1,10 +1,4 @@
 --========================
---=> GIT
-
--- henryTeteDeBois
--- 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 
-
---========================
 --=> NAMING CONVENTION
 
 -- variables/functions: snake_case.
